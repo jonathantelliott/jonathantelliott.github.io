@@ -13,6 +13,15 @@
   gtag('config', 'UA-150719284-1');
 </script>
 
+<!-- toggle script -->
+<script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -96,12 +105,15 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Competition and Investment in Mobile Telecommunications</h3>
+            <h3 class="mb-0">Market Structure, Investment and Technical Efficiencies in Mobile Telecommunications</h3>
             <div class="subheading mb-3">with <a href="https://www.tse-fr.eu/people/marc-ivaldi">Marc Ivaldi</a>, <a href="https://ideas.repec.org/f/pho587.html">Georges Vivien Houngbonon</a>, and <a href="http://www.ptscott.com/">Paul T. Scott</a></div>
-            <!--<p>Paper | Abstract | Slides</p>-->
+            <p><a href="files/telecom_infrastructure.pdf">Draft</a> | <a href="javascript: void(0);" onClick="toggle('abstract_telecom')">Abstract</a> | Slides</p>
+            <div id="abstract_telecom" style="display:none;">
+			<p>We develop a model of competition in prices and infrastructural investment among mobile network providers. Market shares and service quality (download speed) are simultaneously determined, for demand affects the network load just as delivered quality affects consumer demand. While consolidation typically has adverse impacts on consumer surplus, economies of scale (which we derive from physical principles) push in the other direction, and we find that consumer surplus is maximized at a moderate number of firms, and that the optimal number of firms is higher for lower income consumers. Our modeling framework allows us to quantify the marginal social value of allocating more spectrum to mobile telecommunications, finding it is roughly five times an individual firm’s willingness to pay for a marginal unit of spectrum.</p>
+			</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">in progress</span>
+            <span class="text-primary"></span>
           </div>
         </div>
 
